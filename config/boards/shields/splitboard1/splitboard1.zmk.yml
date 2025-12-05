@@ -1,0 +1,13 @@
+file_format: "1"
+id: splitboard1
+name: splitboard1
+type: shield
+url: https://github.com/MakotoKurauchi/splitboard1
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - splitboard1_left
+  - splitboard1_right
